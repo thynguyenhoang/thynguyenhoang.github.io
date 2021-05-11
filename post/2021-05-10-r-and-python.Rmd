@@ -1,0 +1,29 @@
+---
+title: R and Python
+author: ''
+date: '2021-05-10'
+slug: r-and-python
+categories: []
+tags: []
+description: ''
+---
+## R 
+```{R}
+library(tidyverse)
+library(ggplot2)
+
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point()
+library(reticulate)
+hi<-"Hello"
+cat(c(hi,py$hi))
+```
+
+## Python
+```{python}
+list1=[1,2,3,4]
+list2=['a','b','c','d']
+list1[0]
+hi="world"
+print(r.hi,hi)
+```

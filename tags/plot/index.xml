@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plot on Chris Turner</title>
+    <link>/tags/plot/</link>
+    <description>Recent content in plot on Chris Turner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 10 May 2021 21:13:14 -0500</lastBuildDate><atom:link href="/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R and Python</title>
+      <link>/post/2021/05/10/r-and-python/</link>
+      <pubDate>Mon, 10 May 2021 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2021/05/10/r-and-python/</guid>
+      <description>R library(tidyverse) ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ── ## ✓ ggplot2 3.3.3 ✓ purrr 0.3.4 ## ✓ tibble 3.0.4 ✓ dplyr 1.0.2 ## ✓ tidyr 1.1.2 ✓ stringr 1.4.0 ## ✓ readr 1.4.0 ✓ forcats 0.5.0 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ── ## x dplyr::filter() masks stats::filter() ## x dplyr::lag() masks stats::lag() library(ggplot2) ggplot(mpg, aes(displ, hwy, colour = class)) + geom_point() library(reticulate) hi&amp;lt;-&amp;quot;Hello&amp;quot; cat(c(hi,py$hi)) ## Hello  Including Plots You can also embed plots.</description>
+    </item>
+    
+  </channel>
+</rss>
